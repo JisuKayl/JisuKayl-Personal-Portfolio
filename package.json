@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mui/icons-material": "^6.4.6",
+    "@mui/material": "^6.4.6",
     "@tailwindcss/vite": "^4.0.9",
     "jisukayl-personal-portfolio": "file:",
     "react": "^19.0.0",

@@ -132,7 +132,7 @@ const ProfileSection = () => {
               { icon: FaGithub, color: "text-white", title: "GitHub" },
               {
                 icon: DiVisualstudio,
-                color: "text-blue-600",
+                color: "text-purple-600",
                 title: "Visual Studio (.NET)",
               },
               {

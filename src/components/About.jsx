@@ -4,17 +4,19 @@ import { FaLaptopCode, FaMobileAlt, FaRobot, FaServer } from "react-icons/fa";
 const About = () => {
   return (
     <div id="about" className="text-white">
-      <div className="mb-6 p-4 bg-[#3a3a3a] rounded-lg">
+      <div className="mb-6 p-4 bg-[#3a3a3a] rounded-lg space-y-2">
         <h2 className="text-xl font-bold mb-2">About Me</h2>
-        <p>
+        <p className="text-sm">
           I graduated from Baliuag University with a Bachelor's degree in
           Information Technology, specializing in Web and Mobile Application
-          Development, and earned Latin honors (Cum Laude). During my internship
-          at Intelliseven Technology Solutions Inc., I primarily worked on
-          backend development with Express.js and MongoDB, handled JWT
-          authentication, activity logs, and assisted with debugging. I also had
-          some frontend tasks using Next.js, React, and Redux, along with a
-          minor CRUD task in Spring Boot.
+          Development, and earned Latin honors (Cum Laude).
+        </p>
+        <p className="text-sm">
+          During my internship at Intelliseven Technology Solutions Inc., I
+          primarily worked on backend development with Express.js and MongoDB,
+          handled JWT authentication, activity logs, and assisted with
+          debugging. I also had some frontend tasks using Next.js, React, and
+          Redux, along with a minor CRUD task in Spring Boot.
         </p>
       </div>
 
@@ -24,13 +26,13 @@ const About = () => {
             icon: <FaLaptopCode className="text-3xl text-blue-400" />,
             title: "Web Development",
             description:
-              "I build user-friendly web applications, primarily using React.js and Tailwind CSS for the frontend, with Node.js and Express.js for the backend. I also have experience with MySQL, MongoDB, and Prisma ORM.",
+              "I build user-friendly web applications, primarily using React.js and Tailwind CSS for the frontend, with Node.js and Express.js for the backend.",
           },
           {
             icon: <FaMobileAlt className="text-3xl text-green-400" />,
             title: "App Development",
             description:
-              "I have experience developing mobile applications using Android Studio with Java and Kotlin, working with SQLite and Firebase, as well as C# .NET applications in Microsoft Visual Studio with MSSQL.",
+              "I develop mobile applications using Android Studio, working with SQLite and Firebase, and C# .NET applications in Microsoft Visual Studio.",
           },
           {
             icon: <FaRobot className="text-3xl text-purple-400" />,

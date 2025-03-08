@@ -32,7 +32,7 @@ const About = () => {
             icon: <FaMobileAlt className="text-3xl text-green-400" />,
             title: "App Development",
             description:
-              "I develop mobile applications using Android Studio, working with SQLite and Firebase, and C# .NET applications in Microsoft Visual Studio.",
+              "I develop mobile applications using Android Studio, working with SQLite and Firebase, Swift for IOS, and C# .NET applications in Microsoft Visual Studio.",
           },
           {
             icon: <FaRobot className="text-3xl text-purple-400" />,
@@ -44,7 +44,7 @@ const About = () => {
             icon: <FaServer className="text-3xl text-orange-400" />,
             title: "Service Integrations",
             description:
-              "Tested integrations with services like Gmail SMTP, Google Calendar, and Twilio SMS.",
+              "Tested integrations with services like Gmail SMTP, Google Calendar, Leaflet Map, and Twilio SMS.",
           },
         ].map((skill, index) => (
           <div key={index} className="p-4 bg-[#3a3a3a] rounded-lg">

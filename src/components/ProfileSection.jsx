@@ -1,6 +1,12 @@
 import React from "react";
 import profilePic from "../assets/profile.JPG";
-import { FaJava, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import {
+  FaJava,
+  FaGitAlt,
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+} from "react-icons/fa";
 import { DiVisualstudio, DiAndroid, DiNetbeans } from "react-icons/di";
 import { BiLogoVisualStudio } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -8,6 +14,7 @@ import {
   SiHtml5,
   SiCss3,
   SiBootstrap,
+  SiCloudinary,
   SiTailwindcss,
   SiJavascript,
   SiReact,
@@ -18,10 +25,12 @@ import {
   SiSwift,
   SiMysql,
   SiMongodb,
+  SiMui,
   SiPrisma,
   SiSocketdotio,
   SiPostman,
   SiXcode,
+  SiXampp,
   SiRasa,
 } from "react-icons/si";
 
@@ -61,6 +70,11 @@ const ProfileSection = () => {
                 icon: SiTailwindcss,
                 color: "text-teal-400",
                 title: "Tailwind CSS",
+              },
+              {
+                icon: SiMui,
+                color: "text-blue-500",
+                title: "Material-UI",
               },
               {
                 icon: SiJavascript,
@@ -129,6 +143,7 @@ const ProfileSection = () => {
           <p className="mt-2 font-semibold">Others</p>
           <div className="flex flex-wrap gap-4 text-xl">
             {[
+              { icon: FaGitAlt, color: "text-orange-500", title: "Git" },
               { icon: FaGithub, color: "text-white", title: "GitHub" },
               {
                 icon: DiVisualstudio,
@@ -152,7 +167,13 @@ const ProfileSection = () => {
                 title: "Apache NetBeans",
               },
               { icon: SiXcode, color: "text-blue-500", title: "Xcode" },
+              { icon: SiXampp, color: "text-orange-400", title: "Xampp" },
               { icon: SiRasa, color: "text-purple-500", title: "Rasa" },
+              {
+                icon: SiCloudinary,
+                color: "text-blue-500",
+                title: "Cloudinary",
+              },
             ].map(({ icon: Icon, color, title }, index) => (
               <div key={index} className="relative group">
                 <Icon className={`${color}`} />

@@ -103,7 +103,7 @@ const projects = [
     title: "Jisu Chatbot: Rasa AI Test",
     category: "Backend - Conversational AI",
     description:
-      "A test project using machine learning for basic conversational interactions. It can introduce itself, describe its creator, explain its capabilities, and provide insights into its development. Features are currently limited as it is still in the exploration phase.",
+      "A test project using machine learning for basic conversational AI. It can introduce itself, describe its creator, and explain its development. Features remain limited as it is still experimental.",
     image: JisuchatbotImage,
     techStack: [
       { icon: <SiPython />, name: "Python", color: "text-blue-500" },
@@ -126,7 +126,7 @@ const projects = [
     github: "https://github.com/JisuKayl/React-Big-Calendar-Event-Test",
   },
   {
-    title: "CRUD Items: PHP & MySQL",
+    title: "CRUD Items: PHP & MySQL Test",
     category: "Fullstack Website",
     description:
       "A simple CRUD application using PHP and MySQL, primarily built for practice, featuring item creation, editing, deletion, and listing. Styled with Tailwind for a clean UI.",
@@ -214,7 +214,7 @@ const projects = [
     github: "https://github.com/JisuKayl/Gmail-SMTP-Integration-Test",
   },
   {
-    title: "Google Calendar: Sample Scheduler",
+    title: "Google Calendar: Event Scheduler",
     category: "Fullstack Web API Integration",
     description:
       "An integration test for Google Calendar API, allowing users to authenticate with their Google account and manage events, including adding, updating, and deleting scheduled events.",
@@ -253,7 +253,7 @@ const projects = [
     github: "https://github.com/JisuKayl/CaseProgram-RestAPI-Springboot",
   },
   {
-    title: "Lawchat: UI Prototype",
+    title: "Lawchat: Chat UI Prototype",
     category: "Frontend - UI Prototype",
     description:
       "An assessment project during my OJT internship. It features UI functionalities like adding users to a group and deleting chats, serving as a frontend prototype without backend integration.",

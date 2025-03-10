@@ -16,6 +16,8 @@ import EventcalendarImage from "../assets/eventcalendar.png";
 import PhpcrudImage from "../assets/phpcrud.png";
 import SpringbootcurdImage from "../assets/springbootcrud.png";
 import LawchatImage from "../assets/lawchat.png";
+import LibraryImage from "../assets/angularlibrary.png";
+import VideosharingImage from "../assets/angularvideo.png";
 
 const projects = [
   {
@@ -130,7 +132,7 @@ const projects = [
     github: "https://github.com/JisuKayl/Twilio-SMS-Integration-Test",
   },
   {
-    title: "Gmail SMTP: Email",
+    title: "Gmail SMTP: Email Service",
     category: "Fullstack Web API Integration",
     description:
       "An integration test for sending emails using Gmail's SMTP service. Users can compose an email, specify a recipient, and send messages through the configured SMTP server.",
@@ -170,32 +172,35 @@ const projects = [
     github: "https://github.com/JisuKayl/CaseProgram-RestAPI-Springboot",
   },
   {
-    title: "Lawchat: Frontend Prototype",
-    category: "Frontend Mockup Website",
+    title: "Lawchat: UI Prototype",
+    category: "Frontend - UI Prototype",
     description:
-      "An assessment project during my OJT internship. It features UI functionalities like adding users to a group and deleting chats, serving as a mockup without backend integration.",
+      "An assessment project during my OJT internship. It features UI functionalities like adding users to a group and deleting chats, serving as a frontend prototype without backend integration.",
     image: LawchatImage,
     // Techstack used here is Next JS, Typescript, Tailwind
     techStack: [],
     github: "https://github.com/JisuKayl/LawChat-App",
   },
   {
-    title: "",
-    category: "",
-    description: "",
-    image: DefaultImage,
-    // Techstack used here is
+    title: "LibraryHub: Library Management System",
+    category: "Frontend - Mockup Website",
+    description:
+      "A simple UI for a library management system, to practice components, structure, and basic aspects of Angular.",
+    image: LibraryImage,
+    // Techstack used here is Angular JS, Typescript, css
     techStack: [],
-    github: "",
+    github: "https://github.com/JisuKayl/AngularJS-LibraryForm-QuickWebPage",
   },
   {
-    title: "",
-    category: "",
-    description: "",
-    image: DefaultImage,
-    // Techstack used here is
+    title: "Sonoro Acers: Video Sharing Platform",
+    category: "Frontend - Mockup Website",
+    description:
+      "A video-sharing platform UI with basic routing, designed to explore AngularJS components and navigation.",
+    image: VideosharingImage,
+    // Techstack used here is Angular JS, Typescript, css
     techStack: [],
-    github: "",
+    github:
+      "https://github.com/JisuKayl/AngularJS-SonoroAcersVideoSharing-QuickWebPage",
   },
 ];
 

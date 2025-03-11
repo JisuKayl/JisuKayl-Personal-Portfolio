@@ -7,7 +7,12 @@ import {
   FaLinkedin,
   FaEnvelope,
 } from "react-icons/fa";
-import { DiVisualstudio, DiAndroid, DiNetbeans } from "react-icons/di";
+import {
+  DiVisualstudio,
+  DiAndroid,
+  DiNetbeans,
+  DiPhotoshop,
+} from "react-icons/di";
 import { BiLogoVisualStudio } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
 import {
@@ -44,7 +49,7 @@ const ProfileSection = () => {
           className="w-24 h-24 object-cover rounded-full mb-2"
         />
         <p className="font-bold">Jerson Kyle Bonifacio</p>
-        <p>Web Developer</p>
+        <p>Software Engineer</p>
       </div>
 
       <div className="flex flex-wrap justify-around p-4 my-4 bg-[#505050] rounded-md">
@@ -173,6 +178,11 @@ const ProfileSection = () => {
                 icon: SiCloudinary,
                 color: "text-blue-500",
                 title: "Cloudinary",
+              },
+              {
+                icon: DiPhotoshop,
+                color: "text-blue-500",
+                title: "Photoshop",
               },
             ].map(({ icon: Icon, color, title }, index) => (
               <div key={index} className="relative group">

@@ -14,7 +14,6 @@ import {
   DiPhotoshop,
 } from "react-icons/di";
 import { BiLogoVisualStudio } from "react-icons/bi";
-import { TbBrandNextjs } from "react-icons/tb";
 import {
   SiHtml5,
   SiCss3,
@@ -24,6 +23,7 @@ import {
   SiJavascript,
   SiReact,
   SiAngular,
+  SiNextdotjs,
   SiNodedotjs,
   SiExpress,
   SiKotlin,
@@ -87,7 +87,7 @@ const ProfileSection = () => {
               },
               { icon: SiReact, color: "text-blue-400", title: "React.js" },
               { icon: SiAngular, color: "text-red-600", title: "Angular.js" },
-              { icon: TbBrandNextjs, color: "text-white", title: "Next.js" },
+              { icon: SiNextdotjs, color: "text-white", title: "Next.js" },
             ].map(({ icon: Icon, color, title }, index) => (
               <div key={index} className="relative group">
                 <Icon className={`${color}`} />

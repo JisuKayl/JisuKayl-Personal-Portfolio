@@ -1,72 +1,10 @@
-import React, { useRef, useEffect } from "react";
+import React, { useState } from "react";
 import ProfileSection from "../components/ProfileSection";
 import ContentSection from "../components/ContentSection";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Home = () => {
-  const [showMobileMenu, setShowMobileMenu] = React.useState(false);
-  const needsNavigationRefresh = useRef(false);
-
-  useEffect(() => {
-    const setupSmoothScrolling = () => {
-      const anchorLinks = document.querySelectorAll('a[href^="#"]');
-
-      anchorLinks.forEach((anchor) => {
-        const newAnchor = anchor.cloneNode(true);
-        if (anchor.parentNode) {
-          anchor.parentNode.replaceChild(newAnchor, anchor);
-        }
-      });
-      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-        anchor.addEventListener("click", function (e) {
-          e.preventDefault();
-
-          const targetId = this.getAttribute("href");
-          const targetElement = document.querySelector(targetId);
-
-          if (targetElement) {
-            const mobileContent = document.getElementById("mobile-content");
-
-            if (window.innerWidth < 768 && mobileContent) {
-              const mobileContentRect = mobileContent.getBoundingClientRect();
-              const targetRect = targetElement.getBoundingClientRect();
-              const relativePosition = targetRect.top - mobileContentRect.top;
-              mobileContent.scrollTo({
-                top: relativePosition + mobileContent.scrollTop,
-                behavior: "smooth",
-              });
-            } else {
-              targetElement.scrollIntoView({
-                behavior: "smooth",
-                block: "start",
-              });
-            }
-            setShowMobileMenu(false);
-          }
-        });
-      });
-    };
-    setupSmoothScrolling();
-
-    if (showMobileMenu) {
-      needsNavigationRefresh.current = true;
-    }
-    if (showMobileMenu && needsNavigationRefresh.current) {
-      const timer = setTimeout(() => {
-        setupSmoothScrolling();
-        needsNavigationRefresh.current = false;
-      }, 100);
-      return () => clearTimeout(timer);
-    }
-    const handleResize = () => {
-      setupSmoothScrolling();
-    };
-
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, [showMobileMenu]);
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
 
   return (
     <div className="h-screen bg-black overflow-hidden">

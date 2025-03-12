@@ -41,7 +41,7 @@ import {
 
 const ProfileSection = () => {
   return (
-    <div className="text-[#ffffff]">
+    <div className="text-[#ffffff] flex flex-col h-full overflow-hidden">
       <div className="bg-[#505050] rounded-xl flex flex-col items-center p-4">
         <img
           src={profilePic}
@@ -58,10 +58,9 @@ const ProfileSection = () => {
         <a href="#projects">Projects</a>
       </div>
 
-      <div>
-        {/* <p className="font-bold text-lg">Skills</p> */}
+      <div className="flex-grow overflow-y-auto overflow-x-hidden my-4">
         <div>
-          <p className="mt-2 font-semibold">Frontend</p>
+          <p className="mt-2 font-semibold mb-1">Frontend</p>
           <div className="flex flex-wrap gap-4 text-xl">
             {[
               { icon: SiHtml5, color: "text-orange-500", title: "HTML5" },
@@ -101,11 +100,19 @@ const ProfileSection = () => {
         </div>
 
         <div>
-          <p className="mt-2 font-semibold">Backend</p>
+          <p className="mt-2 font-semibold mb-1">Backend</p>
           <div className="flex flex-wrap gap-4 text-xl">
             {[
-              { icon: SiNodedotjs, color: "text-green-500", title: "Node.js" },
-              { icon: SiExpress, color: "text-gray-300", title: "Express.js" },
+              {
+                icon: SiNodedotjs,
+                color: "text-green-500",
+                title: "Node.js",
+              },
+              {
+                icon: SiExpress,
+                color: "text-gray-300",
+                title: "Express.js",
+              },
               {
                 icon: SiSocketdotio,
                 color: "text-gray-400",
@@ -127,7 +134,7 @@ const ProfileSection = () => {
         </div>
 
         <div>
-          <p className="mt-2 font-semibold">Database</p>
+          <p className="mt-2 font-semibold mb-1">Database</p>
           <div className="flex flex-wrap gap-4 text-xl">
             {[
               { icon: SiMysql, color: "text-blue-500", title: "MySQL" },
@@ -145,7 +152,7 @@ const ProfileSection = () => {
         </div>
 
         <div>
-          <p className="mt-2 font-semibold">Others</p>
+          <p className="mt-2 font-semibold mb-1">Others</p>
           <div className="flex flex-wrap gap-4 text-xl">
             {[
               { icon: FaGitAlt, color: "text-orange-500", title: "Git" },
@@ -196,7 +203,7 @@ const ProfileSection = () => {
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-6 mt-6 text-xl bg-[#505050] p-4 rounded-md">
+      <div className="flex flex-wrap justify-center gap-6 mt-auto text-xl bg-[#505050] p-4 rounded-md">
         {[
           {
             icon: FaEnvelope,

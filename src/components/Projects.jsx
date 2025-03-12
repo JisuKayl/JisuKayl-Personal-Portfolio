@@ -298,7 +298,7 @@ const Projects = () => {
   return (
     <div id="projects" className="text-white">
       <h2 className="text-2xl font-bold mb-4">Projects</h2>
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {projects.map((project, index) => (
           <div
             key={index}
@@ -313,7 +313,7 @@ const Projects = () => {
             <p className="text-sm text-gray-400">{project.category}</p>
             <p className="text-sm my-2">{project.description}</p>
             <div className="flex items-center justify-between mt-3">
-              <div className="flex space-x-3">
+              <div className="flex flex-wrap gap-3 mt-3">
                 {project.techStack.map((tech, i) => (
                   <div key={i} className="group relative">
                     <span className={`text-2xl ${tech.color}`}>

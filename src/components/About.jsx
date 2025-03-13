@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import { FaLaptopCode, FaMobileAlt, FaRobot, FaServer } from "react-icons/fa";
+import { ThemeContext } from "../context/ThemeContext";
 
 const About = () => {
+  const { theme } = useContext(ThemeContext);
+  const isDark = theme === "dark";
+
   return (
-    <div id="about" className="text-white">
-      <div className="mb-6 p-4 bg-[#3a3a3a] rounded-lg space-y-2">
+    <div id="about" className={`${isDark ? "text-white" : "text-gray-800"}`}>
+      <div
+        className={`mb-6 p-4 ${
+          isDark ? "bg-[#3a3a3a]" : "bg-violet-100"
+        } rounded-lg space-y-2`}
+      >
         <h2 className="text-xl font-bold mb-2">About Me</h2>
         <p className="text-sm">
           I graduated from Baliuag University with a Bachelor's degree in
@@ -47,7 +55,12 @@ const About = () => {
               "Tested integrations with services like Gmail SMTP, Google Calendar, Leaflet Map, and Twilio SMS.",
           },
         ].map((skill, index) => (
-          <div key={index} className="p-4 bg-[#3a3a3a] rounded-lg">
+          <div
+            key={index}
+            className={`p-4 ${
+              isDark ? "bg-[#3a3a3a]" : "bg-violet-100"
+            } rounded-lg`}
+          >
             <div className="flex flex-col items-center mb-2">{skill.icon}</div>
             <h3 className="text-lg font-bold mb-1">{skill.title}</h3>
             <p className="text-sm">{skill.description}</p>

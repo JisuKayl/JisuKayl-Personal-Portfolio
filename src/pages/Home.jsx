@@ -53,9 +53,10 @@ const Home = () => {
         <div className="h-full flex flex-col md:flex-row gap-6">
           <div
             className={`
-    ${showMobileMenu ? "fixed inset-0 z-10 bg-[#2a2a2a]" : "hidden"} 
-    md:static md:block md:w-1/4 md:min-w-[280px]
-    h-full p-4 rounded-xl bg-[#2a2a2a] border-[#444444] border-2 overflow-y-auto
+    fixed inset-0 z-10 bg-[#2a2a2a] transform transition-transform duration-300 ease-in-out
+    ${showMobileMenu ? "translate-x-0" : "-translate-x-full"}
+    md:static md:block md:w-1/4 md:min-w-[280px] md:translate-x-0
+    h-full p-4 rounded-xl border-[#444444] border-2 overflow-y-auto
   `}
           >
             <ProfileSection />

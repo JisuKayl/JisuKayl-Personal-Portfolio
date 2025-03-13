@@ -61,7 +61,7 @@ const HomeContent = () => {
 
         <div className="h-full flex flex-col md:flex-row gap-6">
           <div
-            className={`
+            className={`no-transition
               fixed inset-0 z-10 ${
                 isDark ? "bg-[#2a2a2a]" : "bg-blue-200"
               } transform transition-transform duration-500 ease-in-out

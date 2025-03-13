@@ -77,7 +77,7 @@ const ProfileSection = () => {
         <a href="#projects">Projects</a>
       </div>
 
-      <div className="flex-grow overflow-y-auto my-1">
+      <div className="flex-grow overflow-y-auto overflow-x-hidden my-1">
         <div>
           <p className="font-semibold mb-1">Frontend</p>
           <div className="flex flex-wrap gap-4 text-xl">

@@ -45,14 +45,14 @@ const HomeContent = () => {
   return (
     <div
       className={`h-screen ${
-        isDark ? "bg-black" : "bg-violet-50"
+        isDark ? "bg-black" : "bg-blue-50"
       } overflow-hidden`}
     >
       <div className="h-full md:p-8 relative">
         <button
           onClick={() => setShowMobileMenu(!showMobileMenu)}
           className={`md:hidden fixed top-2 left-2 z-20 p-2 rounded-full ${
-            isDark ? "bg-[#666666] text-white" : "bg-violet-200 text-gray-800"
+            isDark ? "bg-[#666666] text-white" : "bg-blue-200 text-gray-800"
           } opacity-50`}
           aria-label={showMobileMenu ? "Close menu" : "Open menu"}
         >
@@ -63,12 +63,12 @@ const HomeContent = () => {
           <div
             className={`
               fixed inset-0 z-10 ${
-                isDark ? "bg-[#2a2a2a]" : "bg-violet-200"
+                isDark ? "bg-[#2a2a2a]" : "bg-blue-200"
               } transform transition-transform duration-500 ease-in-out
               ${showMobileMenu ? "translate-x-0" : "-translate-x-full"}
               md:static md:block md:w-1/4 md:min-w-[280px] md:translate-x-0
               h-full p-4 md:rounded-xl ${
-                isDark ? "border-[#444444]" : "border-violet-300"
+                isDark ? "border-[#444444]" : "border-blue-300"
               } border-2 overflow-y-auto
             `}
           >
@@ -78,7 +78,7 @@ const HomeContent = () => {
             className={`w-full md:w-3/4 h-full p-4 md:rounded-xl ${
               isDark
                 ? "bg-[#2a2a2a] border-[#444444]"
-                : "bg-violet-200 border-violet-300"
+                : "bg-blue-200 border-blue-300"
             } border-2`}
           >
             <ContentSection />

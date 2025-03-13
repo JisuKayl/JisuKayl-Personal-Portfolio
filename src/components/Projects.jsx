@@ -372,7 +372,7 @@ const Projects = () => {
             className={`${
               isDark
                 ? "bg-[#3a3a3a] border-[#2a2a2a]"
-                : "bg-violet-100 border-violet-200"
+                : "bg-blue-100 border-blue-200"
             } p-4 rounded-lg border`}
           >
             <img

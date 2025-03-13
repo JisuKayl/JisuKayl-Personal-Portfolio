@@ -10,7 +10,7 @@ const About = () => {
     <div id="about" className={`${isDark ? "text-white" : "text-gray-800"}`}>
       <div
         className={`mb-6 p-4 ${
-          isDark ? "bg-[#3a3a3a]" : "bg-violet-100"
+          isDark ? "bg-[#3a3a3a]" : "bg-blue-100"
         } rounded-lg space-y-2`}
       >
         <h2 className="text-xl font-bold mb-2">About Me</h2>
@@ -58,7 +58,7 @@ const About = () => {
           <div
             key={index}
             className={`p-4 ${
-              isDark ? "bg-[#3a3a3a]" : "bg-violet-100"
+              isDark ? "bg-[#3a3a3a]" : "bg-blue-100"
             } rounded-lg`}
           >
             <div className="flex flex-col items-center mb-2">{skill.icon}</div>

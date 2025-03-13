@@ -55,7 +55,7 @@ const ProfileSection = () => {
     >
       <div
         className={`${
-          isDark ? "bg-[#505050]" : "bg-violet-100"
+          isDark ? "bg-[#505050]" : "bg-blue-100"
         } rounded-xl flex flex-col items-center p-4`}
       >
         <img
@@ -69,7 +69,7 @@ const ProfileSection = () => {
 
       <div
         className={`flex flex-wrap justify-around p-4 my-4 ${
-          isDark ? "bg-[#505050]" : "bg-violet-100"
+          isDark ? "bg-[#505050]" : "bg-blue-100"
         } rounded-md`}
       >
         <a href="#about">About</a>
@@ -231,7 +231,7 @@ const ProfileSection = () => {
 
       <div
         className={`flex items-center justify-between mt-auto text-xl ${
-          isDark ? "bg-[#505050]" : "bg-violet-100"
+          isDark ? "bg-[#505050]" : "bg-blue-100"
         } p-4 rounded-md`}
       >
         <div className="flex items-center justify-center gap-6">
@@ -275,7 +275,7 @@ const ProfileSection = () => {
           <button
             onClick={toggleTheme}
             className={`p-2 rounded-md ${
-              isDark ? "bg-black" : "bg-violet-400"
+              isDark ? "bg-black" : "bg-blue-400"
             } hover:bg-opacity-80 transition-colors`}
             aria-label="Toggle theme"
           >

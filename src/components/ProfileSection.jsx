@@ -2,6 +2,7 @@ import React from "react";
 import profilePic from "../assets/profile.jpg";
 import {
   FaJava,
+  FaFacebook,
   FaGitAlt,
   FaGithub,
   FaLinkedin,
@@ -205,6 +206,11 @@ const ProfileSection = () => {
 
       <div className="flex flex-wrap justify-center gap-6 mt-auto text-xl bg-[#505050] p-4 rounded-md">
         {[
+          {
+            icon: FaFacebook,
+            href: "https://www.facebook.com/JisuKayl/",
+            title: "Facebook",
+          },
           {
             icon: FaEnvelope,
             href: "mailto:jersonkylefbonifacio@gmail.com",

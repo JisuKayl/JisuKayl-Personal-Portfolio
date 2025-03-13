@@ -302,7 +302,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-[#2a2a2a] p-4 rounded-lg border border-[#444]"
+            className="bg-[#3a3a3a] border-[#2a2a2a] p-4 rounded-lg border"
           >
             <img
               src={project.image}

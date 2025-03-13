@@ -50,32 +50,18 @@ const Home = () => {
           {showMobileMenu ? <FaTimes size={20} /> : <FaBars size={20} />}
         </button>
 
-        <div className="hidden md:flex gap-6 h-full">
-          <div className="w-1/4 min-w-[280px] h-full p-4 rounded-xl bg-[#2a2a2a] border-[#444444] border-2 overflow-y-auto ">
-            <ProfileSection />
-          </div>
-          <div className="w-3/4 h-full p-4 rounded-xl bg-[#2a2a2a] border-[#444444] border-2">
-            <ContentSection />
-          </div>
-        </div>
-
-        <div className="md:hidden h-full">
-          <div className="w-full h-full p-4 rounded-xl bg-[#2a2a2a] border-[#444444] border-2">
-            <ContentSection />
-          </div>
-
+        <div className="h-full flex flex-col md:flex-row gap-6">
           <div
             className={`
-              fixed top-0 left-0 h-screen w-3/4 p-4 bg-[#2a2a2a] border-r-[#444444] border-r-2
-              transform transition-transform duration-300 ease-in-out z-10 
-              ${showMobileMenu ? "translate-x-0" : "-translate-x-full"}
-            `}
+    ${showMobileMenu ? "fixed inset-0 z-10 bg-[#2a2a2a]" : "hidden"} 
+    md:static md:block md:w-1/4 md:min-w-[280px]
+    h-full p-4 rounded-xl bg-[#2a2a2a] border-[#444444] border-2 overflow-y-auto
+  `}
           >
-            <div className="pt-12 h-full flex flex-col overflow-x-auto">
-              <div className="flex-grow overflow-y-auto">
-                <ProfileSection />
-              </div>
-            </div>
+            <ProfileSection />
+          </div>
+          <div className="w-full md:w-3/4 h-full p-4 rounded-xl bg-[#2a2a2a] border-[#444444] border-2">
+            <ContentSection />
           </div>
         </div>
       </div>

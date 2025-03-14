@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import { FaLaptopCode, FaMobileAlt, FaRobot, FaServer } from "react-icons/fa";
 import { ThemeContext } from "../context/ThemeContext";
+import aboutData from "../data/aboutData";
 
 const About = () => {
   const { theme } = useContext(ThemeContext);
@@ -29,32 +29,7 @@ const About = () => {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        {[
-          {
-            icon: <FaLaptopCode className="text-3xl text-blue-400" />,
-            title: "Web Development",
-            description:
-              "I build user-friendly web applications, primarily using React.js and Tailwind CSS for the frontend, with Node.js and Express.js for the backend.",
-          },
-          {
-            icon: <FaMobileAlt className="text-3xl text-green-400" />,
-            title: "App Development",
-            description:
-              "I develop mobile applications using Android Studio, working with SQLite and Firebase, Swift for IOS, and C# .NET applications in Microsoft Visual Studio.",
-          },
-          {
-            icon: <FaRobot className="text-3xl text-purple-400" />,
-            title: "AI-Driven Chatbots",
-            description:
-              "Currently exploring AI-driven chatbots using Rasa, focusing on creating intelligent conversational agents.",
-          },
-          {
-            icon: <FaServer className="text-3xl text-orange-400" />,
-            title: "Service Integrations",
-            description:
-              "Tested integrations with services like Gmail SMTP, Google Calendar, Leaflet Map, and Twilio SMS.",
-          },
-        ].map((skill, index) => (
+        {aboutData.map((skill, index) => (
           <div
             key={index}
             className={`p-4 ${

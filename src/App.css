@@ -4,3 +4,34 @@
   transition: background-color 0.3s ease, color 0.3s ease,
     border-color 0.3s ease;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #93c5fd;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2563eb;
+  border-radius: 5px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #2a2a2a;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #444444;
+  border-radius: 5px;
+}
+
+html {
+  scrollbar-color: #2563eb #93c5fd;
+  scrollbar-width: thin;
+}
+
+.dark {
+  scrollbar-color: #444444 #2a2a2a;
+}

@@ -13,7 +13,7 @@ const ContentSection = () => {
         isDark ? "text-white" : "text-gray-800"
       }`}
     >
-      <div className="space-y-6 pb-6 min-w-[20rem]">
+      <div className="space-y-6 min-w-[20rem]">
         <div id="about">
           <About />
         </div>

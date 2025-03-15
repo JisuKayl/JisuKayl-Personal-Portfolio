@@ -73,7 +73,7 @@ const ProfileSection = () => {
         <div>
           <p className="mt-2 font-semibold mb-1">Database</p>
           <div className="flex flex-wrap gap-4 text-xl">
-            {renderSkillIcons(databaseSkills)}
+            {renderSkillIcons(databaseSkills(isDark))}
           </div>
         </div>
 
@@ -91,7 +91,7 @@ const ProfileSection = () => {
         } p-4 rounded-md`}
       >
         <div className="flex items-center justify-center gap-6">
-          {socialLinks.map(({ icon: Icon, href, title }, index) => (
+          {socialLinks(isDark).map(({ icon: Icon, href, title }, index) => (
             <a
               key={index}
               href={href}

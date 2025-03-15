@@ -6,13 +6,12 @@ import projectsData from "../data/projectsData";
 const Projects = () => {
   const { theme } = useContext(ThemeContext);
   const isDark = theme === "dark";
-  const projects = projectsData(isDark);
 
   return (
     <div id="projects" className={`${isDark ? "text-white" : "text-gray-800"}`}>
       <h2 className="text-2xl font-bold mb-4">Projects</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {projects.map((project, index) => (
+        {projectsData(isDark).map((project, index) => (
           <div
             key={index}
             className={`${

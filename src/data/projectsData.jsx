@@ -50,7 +50,7 @@ import { TbBrandCSharp } from "react-icons/tb";
 const projectsData = (isDark) => [
   {
     title: "Uniserve: Service Management System",
-    category: "Full-Stack Web Application",
+    category: "Fullstack - Web Application",
     description:
       "This is our capstone project, primarily focused on room and equipment reservations, along with announcements, reports, and the management of accounts, rooms, and equipment inventory.",
     image: CapstoneImage,
@@ -70,7 +70,7 @@ const projectsData = (isDark) => [
   },
   {
     title: "Petlandia: Veterinary System",
-    category: "Full-Stack Web Application",
+    category: "Fullstack - Web Application",
     description:
       "A veterinary management system, featuring appointment scheduling and patient records. Includes WebSocket-based notifications, Cloudinary for file uploads (video), and Recharts for data visualization.",
     image: PetlandiaImage,
@@ -97,7 +97,7 @@ const projectsData = (isDark) => [
   },
   {
     title: "WS Chat: Real-Time Chat",
-    category: "Full-Stack Web Application",
+    category: "Fullstack - Web Application",
     description:
       "A simple real-time chat application utilizing WebSocket for instant messaging. Features user account creation, join upon login, real-time messaging, and a leave button for disconnecting from the chat room.",
     image: WschatImage,
@@ -120,20 +120,8 @@ const projectsData = (isDark) => [
     github: "https://github.com/JisuKayl/PrismaORM-Websocket-RealtimeChat-Test",
   },
   {
-    title: "Jisu Chatbot: Rasa AI Test",
-    category: "Backend - Conversational AI",
-    description:
-      "A test project using machine learning for basic conversational AI. It can introduce itself, describe its creator, and explain its development. Features remain limited as it is still experimental.",
-    image: JisuchatbotImage,
-    techStack: [
-      { icon: <SiPython />, name: "Python", color: "text-blue-500" },
-      { icon: <SiRasa />, name: "Rasa", color: "text-purple-500" },
-    ],
-    github: "https://github.com/JisuKayl/Rasa-Machine-Learning-Test",
-  },
-  {
     title: "React Big Calendar: Event Calendar",
-    category: "Full-Stack Web Application",
+    category: "Fullstack - Web Application",
     description:
       "A test project utilizing React Big Calendar for event scheduling and management. Users can add, edit, and delete events, with data stored in a database for persistence.",
     image: EventcalendarImage,
@@ -151,7 +139,7 @@ const projectsData = (isDark) => [
   },
   {
     title: "CRUD Items: PHP & MySQL Test",
-    category: "Full-Stack Web Application",
+    category: "Fullstack - Web Application",
     description:
       "A simple CRUD application using PHP and MySQL, primarily built for practice, featuring item creation, editing, deletion, and listing. Styled with Tailwind for a clean UI.",
     image: PhpcrudImage,
@@ -164,8 +152,20 @@ const projectsData = (isDark) => [
     github: "https://github.com/JisuKayl/CrudItems-Tailwind-Php-Sql-Test",
   },
   {
+    title: "Jisu Chatbot: Rasa AI Test",
+    category: "Backend - Conversational AI",
+    description:
+      "A test project using machine learning for basic conversational AI. It can introduce itself, describe its creator, and explain its development. Features remain limited as it is still experimental.",
+    image: JisuchatbotImage,
+    techStack: [
+      { icon: <SiPython />, name: "Python", color: "text-blue-500" },
+      { icon: <SiRasa />, name: "Rasa", color: "text-purple-500" },
+    ],
+    github: "https://github.com/JisuKayl/Rasa-Machine-Learning-Test",
+  },
+  {
     title: "Syncbook: Phonebook App",
-    category: "Fullstack Android Application",
+    category: "Fullstack - Android Application",
     description:
       "A simple phonebook application that allows users to add, edit, and delete contacts. It also includes a search functionality for quick access to saved contacts.",
     image: SyncbookImage,
@@ -203,7 +203,7 @@ const projectsData = (isDark) => [
   },
   {
     title: "Jisubee: Fast Food System",
-    category: "Fullstack Desktop Application",
+    category: "Fullstack - Desktop Application",
     description:
       "A fast food management system allowing admins to manage menu items and users to place orders, search the menu, view order history, and print receipts.",
     image: JisubeeImage,
@@ -216,7 +216,7 @@ const projectsData = (isDark) => [
   },
   {
     title: "Himnario: Lyrics Management App",
-    category: "Fullstack IOS Application",
+    category: "Fullstack - iOS Application",
     description:
       "An app for managing song lyrics, allowing users to add, edit, delete, and view songs with codes, titles, and lyrics. Includes a favorites feature for quick access.",
     image: DefaultImage,
@@ -225,7 +225,7 @@ const projectsData = (isDark) => [
   },
   {
     title: "Twilio: SMS Service",
-    category: "Fullstack Web API Integration",
+    category: "Fullstack - Web API Integration",
     description:
       "A test project integrating Twilio's SMS API for sending text messages. It allows users to input a phone number and message, then send it using Twilio's service.",
     image: TwilioImage,
@@ -242,7 +242,7 @@ const projectsData = (isDark) => [
   },
   {
     title: "Gmail SMTP: Email Service",
-    category: "Fullstack Web API Integration",
+    category: "Fullstack - Web API Integration",
     description:
       "An integration test for sending emails using Gmail's SMTP service. Users can compose an email, specify a recipient, and send messages through the configured SMTP server.",
     image: GmailsmtpImage,
@@ -259,7 +259,7 @@ const projectsData = (isDark) => [
   },
   {
     title: "Google Calendar: Event Scheduler",
-    category: "Fullstack Web API Integration",
+    category: "Fullstack - Web API Integration",
     description:
       "An integration test for Google Calendar API, allowing users to authenticate with their Google account and manage events, including adding, updating, and deleting scheduled events.",
     image: GooglecalendarImage,
@@ -277,7 +277,7 @@ const projectsData = (isDark) => [
   },
   {
     title: "OpenWeatherMap: Weather Forecast",
-    category: "Fullstack Web API Integration",
+    category: "Fullstack - Web API Integration",
     description:
       "An integration test for OpenWeatherMap API, allowing users to search for weather forecasts by city and retrieve real-time weather data, including temperature, humidity, and conditions.",
     image: OwmweatherImage,

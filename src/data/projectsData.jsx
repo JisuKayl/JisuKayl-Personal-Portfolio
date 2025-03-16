@@ -258,10 +258,10 @@ const projectsData = (isDark) => [
     github: "https://github.com/JisuKayl/Gmail-SMTP-Integration-Test",
   },
   {
-    title: "Google Calendar: Event Scheduler",
+    title: "GCal: Google Calendar Scheduler",
     category: "Fullstack - Web API Integration",
     description:
-      "An integration test for Google Calendar API, allowing users to authenticate with their Google account and manage events, including adding, updating, and deleting scheduled events.",
+      "An integration test for the Google Calendar API, allowing users to authenticate with their Google account and manage events while syncing with their actual Google Calendar.",
     image: GooglecalendarImage,
     techStack: [
       { icon: <SiReact />, name: "React", color: "text-blue-400" },

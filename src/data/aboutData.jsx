@@ -12,7 +12,7 @@ const aboutData = [
     icon: <FaMobileAlt className="text-3xl text-green-400" />,
     title: "App Development",
     description:
-      "I develop mobile applications using Android Studio, working with SQLite and Firebase, Swift for IOS, and C# .NET applications in Microsoft Visual Studio.",
+      "I develop mobile applications using Android Studio, working with SQLite and Firebase, Swift for iOS, and C# .NET applications in Microsoft Visual Studio.",
   },
   {
     icon: <FaRobot className="text-3xl text-gray-400" />,

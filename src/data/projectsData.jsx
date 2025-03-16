@@ -50,7 +50,7 @@ import { TbBrandCSharp } from "react-icons/tb";
 const projectsData = (isDark) => [
   {
     title: "Uniserve: Service Management System",
-    category: "Fullstack Website",
+    category: "Full-Stack Web Application",
     description:
       "This is our capstone project, primarily focused on room and equipment reservations, along with announcements, reports, and the management of accounts, rooms, and equipment inventory.",
     image: CapstoneImage,
@@ -70,7 +70,7 @@ const projectsData = (isDark) => [
   },
   {
     title: "Petlandia: Veterinary System",
-    category: "Fullstack Website",
+    category: "Full-Stack Web Application",
     description:
       "A veterinary management system, featuring appointment scheduling and patient records. Includes WebSocket-based notifications, Cloudinary for file uploads (video), and Recharts for data visualization.",
     image: PetlandiaImage,
@@ -97,7 +97,7 @@ const projectsData = (isDark) => [
   },
   {
     title: "WS Chat: Real-Time Chat",
-    category: "Fullstack Website",
+    category: "Full-Stack Web Application",
     description:
       "A simple real-time chat application utilizing WebSocket for instant messaging. Features user account creation, join upon login, real-time messaging, and a leave button for disconnecting from the chat room.",
     image: WschatImage,
@@ -133,7 +133,7 @@ const projectsData = (isDark) => [
   },
   {
     title: "React Big Calendar: Event Calendar",
-    category: "Fullstack Website",
+    category: "Full-Stack Web Application",
     description:
       "A test project utilizing React Big Calendar for event scheduling and management. Users can add, edit, and delete events, with data stored in a database for persistence.",
     image: EventcalendarImage,
@@ -151,7 +151,7 @@ const projectsData = (isDark) => [
   },
   {
     title: "CRUD Items: PHP & MySQL Test",
-    category: "Fullstack Website",
+    category: "Full-Stack Web Application",
     description:
       "A simple CRUD application using PHP and MySQL, primarily built for practice, featuring item creation, editing, deletion, and listing. Styled with Tailwind for a clean UI.",
     image: PhpcrudImage,

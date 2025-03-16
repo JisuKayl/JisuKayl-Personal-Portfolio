@@ -120,7 +120,7 @@ const projectsData = (isDark) => [
     github: "https://github.com/JisuKayl/PrismaORM-Websocket-RealtimeChat-Test",
   },
   {
-    title: "React Big Calendar: Event Calendar",
+    title: "React Big Calendar: Event Scheduler",
     category: "Fullstack - Web Application",
     description:
       "A test project utilizing React Big Calendar for event scheduling and management. Users can add, edit, and delete events, with data stored in a database for persistence.",

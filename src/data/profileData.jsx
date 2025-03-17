@@ -13,10 +13,12 @@ import {
   DiPhotoshop,
 } from "react-icons/di";
 import { BiLogoVisualStudio } from "react-icons/bi";
+import { AiOutlineConsoleSql } from "react-icons/ai";
 import {
   SiHtml5,
   SiCss3,
   SiBootstrap,
+  SiCanva,
   SiCloudinary,
   SiTailwindcss,
   SiJavascript,
@@ -128,6 +130,11 @@ export const databaseSkills = (isDark) => [
     title: "MySQL",
   },
   {
+    icon: AiOutlineConsoleSql,
+    color: isDark ? "text-blue-500" : "text-blue-700",
+    title: "MsSQL",
+  },
+  {
     icon: SiMongodb,
     color: isDark ? "text-green-400" : "text-green-600",
     title: "MongoDB",
@@ -199,6 +206,11 @@ export const otherSkills = (isDark) => [
     icon: DiPhotoshop,
     color: isDark ? "text-blue-500" : "text-blue-700",
     title: "Photoshop",
+  },
+  {
+    icon: SiCanva,
+    color: isDark ? "text-blue-500" : "text-blue-700",
+    title: "Canva",
   },
   {
     icon: SiFigma,

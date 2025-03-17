@@ -37,6 +37,7 @@ import {
   SiDotnet,
   SiSwift,
   SiSpringboot,
+  SiSqlite,
   SiMongodb,
   SiNextdotjs,
   SiTypescript,
@@ -177,7 +178,7 @@ const projectsData = (isDark) => [
         color: "text-green-400",
       },
       {
-        icon: <AiOutlineConsoleSql />,
+        icon: <SiSqlite />,
         name: "SQLite",
         color: "text-blue-500",
       },
@@ -210,7 +211,7 @@ const projectsData = (isDark) => [
     techStack: [
       { icon: <TbBrandCSharp />, name: "C#", color: "text-purple-600" },
       { icon: <SiDotnet />, name: ".NET", color: "text-purple-600" },
-      { icon: <SiMysql />, name: "MySQL", color: "text-blue-500" },
+      { icon: <AiOutlineConsoleSql />, name: "MsSQL", color: "text-blue-500" },
     ],
     github: "https://github.com/JisuKayl/CSharp-DotNet-MsSQL-FastFoodSystem",
   },

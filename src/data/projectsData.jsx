@@ -34,6 +34,7 @@ import {
   SiPhp,
   SiKotlin,
   SiAndroid,
+  SiDotnet,
   SiSwift,
   SiSpringboot,
   SiSqlite,
@@ -46,7 +47,6 @@ import {
 import { FaJava } from "react-icons/fa";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import { TbBrandCSharp } from "react-icons/tb";
-import { DiVisualstudio } from "react-icons/di";
 
 const projectsData = (isDark) => [
   {
@@ -209,12 +209,8 @@ const projectsData = (isDark) => [
       "A fast food management system allowing admins to manage menu items and users to place orders, search the menu, view order history, and print receipts.",
     image: JisubeeImage,
     techStack: [
-      {
-        icon: <DiVisualstudio />,
-        name: "Visual Studio (.NET)",
-        color: "text-purple-600",
-      },
       { icon: <TbBrandCSharp />, name: "C#", color: "text-purple-600" },
+      { icon: <SiDotnet />, name: ".NET", color: "text-purple-600" },
       { icon: <AiOutlineConsoleSql />, name: "MsSQL", color: "text-blue-500" },
     ],
     github: "https://github.com/JisuKayl/CSharp-DotNet-MsSQL-FastFoodSystem",

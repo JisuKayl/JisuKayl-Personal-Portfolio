@@ -17,6 +17,8 @@ import SpringbootcurdImage from "../assets/springbootcrud.png";
 import LawchatImage from "../assets/lawchat.png";
 import LibraryImage from "../assets/angularlibrary.png";
 import VideosharingImage from "../assets/angularvideo.png";
+import OmdbImage from "../assets/omdbapi.png";
+import GithubusersImage from "../assets/githubusers.png";
 import {
   SiReact,
   SiMui,
@@ -35,6 +37,7 @@ import {
   SiKotlin,
   SiAndroid,
   SiDotnet,
+  SiJavascript,
   SiSwift,
   SiSpringboot,
   SiSqlite,
@@ -53,7 +56,7 @@ const projectsData = (isDark) => [
     title: "Uniserve: Service Management System",
     category: "Fullstack - Web Application",
     description:
-      "This is our capstone project, primarily focused on room and equipment reservations, along with announcements, reports, and the management of accounts, rooms, and equipment inventory.",
+      "This is our capstone project, primarily focused on room and equipment reservations, along with announcements, reports, and the management of accounts, rooms, and equipment inventory. (Private Repository)",
     image: CapstoneImage,
     techStack: [
       { icon: <SiReact />, name: "React", color: "text-blue-400" },
@@ -206,7 +209,7 @@ const projectsData = (isDark) => [
     title: "Jisubee: Fast Food System",
     category: "Fullstack - Desktop Application",
     description:
-      "A fast food management system allowing admins to manage menu items and users to place orders, search the menu, view order history, and print receipts.",
+      "A simple fast food system allowing admins to manage menu items and users to place orders, search the menu, view order history, and print receipts.",
     image: JisubeeImage,
     techStack: [
       { icon: <TbBrandCSharp />, name: "C#", color: "text-purple-600" },
@@ -292,6 +295,31 @@ const projectsData = (isDark) => [
       },
     ],
     github: "https://github.com/JisuKayl/OpenWeatherMap-Integration-Test",
+  },
+  {
+    title: "OMDb API: Movie List",
+    category: "Frontend - Web API Integration",
+    description:
+      "A React app that fetches movie data from the Open Movie Database (OMDb) API. It displays movie titles and posters with a search feature for easy browsing.",
+    image: OmdbImage,
+    techStack: [
+      { icon: <SiReact />, name: "React", color: "text-cyan-400" },
+      { icon: <SiCss3 />, name: "CSS", color: "text-blue-500" },
+    ],
+    github: "https://github.com/JisuKayl/OMDb-Api-MovieList",
+  },
+  {
+    title: "GitHub Users: AJAX Test",
+    category: "Frontend - Web API Integration",
+    description:
+      "An Asynchronous JavaScript and XML (AJAX) project that fetches a list of GitHub users dynamically. It displays profile pictures, usernames, and links to their actual GitHub profiles.",
+    image: GithubusersImage,
+    techStack: [
+      { icon: <SiHtml5 />, name: "HTML", color: "text-orange-500" },
+      { icon: <SiCss3 />, name: "CSS", color: "text-blue-500" },
+      { icon: <SiJavascript />, name: "JavaScript", color: "text-yellow-400" },
+    ],
+    github: "https://github.com/JisuKayl/GithubUsers-AjaxTest",
   },
   {
     title: "Case Program: Sping Boot REST API",

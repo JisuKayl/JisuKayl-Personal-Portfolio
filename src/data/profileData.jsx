@@ -40,6 +40,7 @@ import {
   SiRasa,
   SiFigma,
   SiPenpot,
+  SiJsonwebtokens,
 } from "react-icons/si";
 
 export const frontendSkills = (isDark) => [
@@ -105,6 +106,11 @@ export const backendSkills = (isDark) => [
     icon: SiSocketdotio,
     color: isDark ? "text-gray-400" : "text-gray-700",
     title: "WebSocket",
+  },
+  {
+    icon: SiJsonwebtokens,
+    color: isDark ? "text-yellow-500" : "text-yellow-700",
+    title: "JWT",
   },
   {
     icon: FaJava,

@@ -1,6 +1,8 @@
 # 🚀 Personal Portfolio  
 
 [Visit My Portfolio](https://jisukayl-portfolio.vercel.app/)  
+**Or copy & paste this link into your browser:**  
+➡️ `https://jisukayl-portfolio.vercel.app/`  
 
 This is my personal portfolio website showcasing my **skills, projects, and a little about myself**.  
 

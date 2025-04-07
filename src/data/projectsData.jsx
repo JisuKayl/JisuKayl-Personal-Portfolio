@@ -13,12 +13,14 @@ import GooglecalendarImage from "../assets/gcalendar.png";
 import OwmweatherImage from "../assets/owm.png";
 import EventcalendarImage from "../assets/eventcalendar.png";
 import PhpcrudImage from "../assets/phpcrud.png";
-import SpringbootcurdImage from "../assets/springbootcrud.png";
+import SpringbootcrudImage from "../assets/springbootcrud.png";
 import LawchatImage from "../assets/lawchat.png";
 import LibraryImage from "../assets/angularlibrary.png";
 import VideosharingImage from "../assets/angularvideo.png";
 import OmdbImage from "../assets/omdbapi.png";
 import GithubusersImage from "../assets/githubusers.png";
+import CaseprogramtwoImage from "../assets/caseprogramtwo.png";
+import PortfolioImage from "../assets/portfolio.png";
 import {
   SiReact,
   SiMui,
@@ -108,6 +110,7 @@ const projectsData = (isDark) => [
     techStack: [
       { icon: <SiReact />, name: "React", color: "text-blue-400" },
       { icon: <SiCss3 />, name: "CSS", color: "text-blue-500" },
+      { icon: <SiNodedotjs />, name: "Node.js", color: "text-green-500" },
       {
         icon: <SiExpress />,
         name: "Express.js",
@@ -132,6 +135,7 @@ const projectsData = (isDark) => [
     techStack: [
       { icon: <SiReact />, name: "React", color: "text-blue-400" },
       { icon: <SiCss3 />, name: "CSS", color: "text-blue-500" },
+      { icon: <SiNodedotjs />, name: "Node.js", color: "text-green-500" },
       {
         icon: <SiExpress />,
         name: "Express.js",
@@ -236,6 +240,7 @@ const projectsData = (isDark) => [
     techStack: [
       { icon: <SiReact />, name: "React", color: "text-blue-400" },
       { icon: <SiCss3 />, name: "CSS", color: "text-blue-500" },
+      { icon: <SiNodedotjs />, name: "Node.js", color: "text-green-500" },
       {
         icon: <SiExpress />,
         name: "Express.js",
@@ -253,6 +258,7 @@ const projectsData = (isDark) => [
     techStack: [
       { icon: <SiReact />, name: "React", color: "text-blue-400" },
       { icon: <SiCss3 />, name: "CSS", color: "text-blue-500" },
+      { icon: <SiNodedotjs />, name: "Node.js", color: "text-green-500" },
       {
         icon: <SiExpress />,
         name: "Express.js",
@@ -270,6 +276,7 @@ const projectsData = (isDark) => [
     techStack: [
       { icon: <SiReact />, name: "React", color: "text-blue-400" },
       { icon: <SiCss3 />, name: "CSS", color: "text-blue-500" },
+      { icon: <SiNodedotjs />, name: "Node.js", color: "text-green-500" },
       {
         icon: <SiExpress />,
         name: "Express.js",
@@ -288,6 +295,7 @@ const projectsData = (isDark) => [
     techStack: [
       { icon: <SiReact />, name: "React", color: "text-blue-400" },
       { icon: <SiCss3 />, name: "CSS", color: "text-blue-500" },
+      { icon: <SiNodedotjs />, name: "Node.js", color: "text-green-500" },
       {
         icon: <SiExpress />,
         name: "Express.js",
@@ -326,7 +334,7 @@ const projectsData = (isDark) => [
     category: "Backend - REST API",
     description:
       "A CRUD-based REST API built with Spring Boot and MongoDB. It enables case management operations, including creating, reading, updating, and deleting records through structured API endpoints.",
-    image: SpringbootcurdImage,
+    image: SpringbootcrudImage,
     techStack: [
       {
         icon: <SiSpringboot />,
@@ -336,6 +344,19 @@ const projectsData = (isDark) => [
       { icon: <SiMongodb />, name: "MongoDB", color: "text-green-400" },
     ],
     github: "https://github.com/JisuKayl/CaseProgram-RestAPI-Springboot",
+  },
+  {
+    title: "Case Program v2: Express.js REST API",
+    category: "Backend - REST API",
+    description:
+      "Case Program v2 is a CRUD-based Express.js REST API with MongoDB. It supports case and hearing management, JWT authentication, tokens (access, refresh, & blacklist), bcrypt password hashing, and activity logging.",
+    image: CaseprogramtwoImage,
+    techStack: [
+      { icon: <SiNodedotjs />, name: "Node.js", color: "text-green-500" },
+      { icon: <SiExpress />, name: "Express.js", color: "text-gray-500" },
+      { icon: <SiMongodb />, name: "MongoDB", color: "text-green-400" },
+    ],
+    github: "https://github.com/JisuKayl/CaseProgram-ExpressJS-MongoDB",
   },
   {
     title: "Lawchat: Chat UI Prototype",
@@ -380,6 +401,18 @@ const projectsData = (isDark) => [
     ],
     github:
       "https://github.com/JisuKayl/AngularJS-SonoroAcersVideoSharing-QuickWebPage",
+  },
+  {
+    title: "Personal Portfolio Website",
+    category: "Frontend - Portfolio Website",
+    description:
+      "This is my personal portfolio website showcasing my skills, projects, and a little about myself. It includes a minimal UI, responsive design, and a light/dark mode toggle.",
+    image: PortfolioImage,
+    techStack: [
+      { icon: <SiReact />, name: "React.js", color: "text-blue-500" },
+      { icon: <SiTailwindcss />, name: "Tailwind CSS", color: "text-teal-400" },
+    ],
+    github: "https://github.com/JisuKayl/JisuKayl-Personal-Portfolio",
   },
 ];
 

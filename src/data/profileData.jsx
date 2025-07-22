@@ -231,12 +231,12 @@ export const otherSkills = (isDark) => [
 ];
 
 export const socialLinks = (isDark) => [
-  {
-    icon: FaFacebook,
-    href: "https://www.facebook.com/JisuKayl/",
-    title: "Facebook",
-    color: isDark ? "text-blue-600" : "text-blue-800",
-  },
+  // {
+  //   icon: FaFacebook,
+  //   href: "https://www.facebook.com/JisuKayl/",
+  //   title: "Facebook",
+  //   color: isDark ? "text-blue-600" : "text-blue-800",
+  // },
   {
     icon: FaEnvelope,
     href: "mailto:jersonkylefbonifacio@gmail.com",

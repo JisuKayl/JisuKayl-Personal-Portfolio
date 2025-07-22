@@ -1,15 +1,24 @@
-# Personal Website PortFolio Link: 
-https://jisukayl-portfolio.vercel.app/
+# 🚀 Personal Portfolio  
 
-# React + Vite
+[Click This Link To Visit My Portfolio](https://jisukayl-portfolio.vercel.app/) or copy & paste this link into your browser: 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+`https://jisukayl-portfolio.vercel.app/` 
 
-Currently, two official plugins are available:
+This is my personal portfolio website showcasing my **skills, projects, and a little about myself**.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack  
+- **React.js** ⚛️  
+- **Vite** ⚡  
+- **Tailwind CSS** 🎨  
+- **React Icons** 🔥  
 
-## Expanding the ESLint configuration
+## 🌟 Features  
+- **Showcase of My Skills, Projects & A Little About Myself** 📌  
+- **Minimal UI** ✨  
+- **Responsive Design for Various Screen Sizes** 📱💻  
+- **Light & Dark Mode Toggle** 🌗  
+- **Clickable GitHub Icon for Each Project Repository** 🔗  
+- **Clickable Icons for Contact Links** 📬  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌍 Live Deployment  
+This portfolio is **deployed on Vercel**, ensuring fast performance and accessibility from anywhere.  
